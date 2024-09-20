@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho de Práticas sobre Bactérias</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Trabalho de Práticas sobre Bactérias</h1>
+        <nav>
+            <ul>
+                <li><a href="#tipos" class="active">Tipos de Bactérias</a></li>
+                <li><a href="#estruturas">Estruturas Bacterianas</a></li>
+                <li><a href="#metodos">Métodos de Cultura</a></li>
+                <li><a href="#experimentos">Experimentos</a></li>
+                <li><a href="#observacoes">Observações</a></li>
+                <li><a href="#prevencao">Prevenção</a></li>
+                <li><a href="#creditos">Créditos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="tabs">
+            <div id="tipos" class="tab-content active">
+                <h2>Tipos de Bactérias</h2>
+                <p>As bactérias são organismos unicelulares que podem ser classificadas em diferentes tipos:</p>
+                <h3>Bactérias Gram-Positivas</h3>
+                <p>Possuem uma parede celular espessa e retêm a coloração do cristal violeta. Muitas são benéficas, mas algumas podem causar doenças.</p>
+                <h3>Bactérias Gram-Negativas</h3>
+                <p>Têm uma parede celular mais fina e são frequentemente mais resistentes a antibióticos. Podem causar infecções graves.</p>
+                <h3>Bactérias Anaeróbias</h3>
+                <p>Vivem em ambientes sem oxigênio e podem ser patogênicas em certas condições.</p>
+                <h3>Bactérias Aeróbias</h3>
+                <p>Precisam de oxigênio e podem causar doenças em hospedeiros que não estão saudáveis.</p>
+            </div>
+
+            <div id="estruturas" class="tab-content">
+                <h2>Estruturas Bacterianas</h2>
+                <p>As bactérias possuem diversas estruturas que desempenham papéis importantes em sua sobrevivência e reprodução:</p>
+                <h3>Parede Celular</h3>
+                <p>Proporciona proteção e forma à célula. A estrutura da parede celular pode determinar a resistência a antibióticos.</p>
+                <h3>Membrana Plasmática</h3>
+                <p>Controla a entrada e saída de substâncias na célula, vital para a sobrevivência bacteriana.</p>
+                <h3>Flagelos</h3>
+                <p>Estruturas filamentosas que permitem o movimento da bactéria, ajudando na colonização de novos ambientes.</p>
+                <h3>Fimbrias</h3>
+                <p>Pequenas projeções que ajudam na adesão a superfícies, essencial para a colonização de tecidos.</p>
+                <h3>Cápsula</h3>
+                <p>Camada protetora que ajuda na defesa contra o sistema imunológico e desidratação.</p>
+            </div>
+
+            <div id="metodos" class="tab-content">
+                <h2>Métodos de Cultura de Bactérias</h2>
+                <p>Existem diferentes métodos para cultivar bactérias em laboratório:</p>
+                <h3>Cultivo em Ágar</h3>
+                <p>Usa placas de Petri com meio ágar para permitir o crescimento das colônias bacterianas.</p>
+                <h3>Cultivo em Líquido</h3>
+                <p>Usa frascos com meio líquido para um crescimento mais uniforme e maior produção de células.</p>
+                <h3>Enriquecimento Seletivo</h3>
+                <p>Usa meios que favorecem o crescimento de determinados tipos de bactérias, enquanto inibe outros.</p>
+            </div>
+
+            <div id="experimentos" class="tab-content">
+                <h2>Experimentos com Bactérias</h2>
+                <p>Os experimentos ajudam a entender o comportamento das bactérias em diferentes condições:</p>
+                <h3>Experimento do Crescimento de Bactérias</h3>
+                <p>Vamos observar o crescimento de bactérias em diferentes meios de cultura.</p>
+                <h4>Materiais Necessários:</h4>
+                <ul>
+                    <li>Meio de cultura (agar)</li>
+                    <li>Placas de Petri</li>
+                    <li>Swabs estéreis</li>
+                    <li>Incubadora</li>
+                </ul>
+                <h4>Passos:</h4>
+                <ol>
+                    <li>Inocular o meio de cultura com amostras de diferentes superfícies.</li>
+                    <li>Incubar as placas a 37°C por 24-48 horas.</li>
+                    <li>Observar e registrar o crescimento bacteriano.</li>
+                </ol>
+            </div>
+
+            <div id="observacoes" class="tab-content">
+                <h2>Observações sobre Bactérias</h2>
+                <p>As observações são cruciais para entender o comportamento das bactérias:</p>
+                <h3>Dicas para Observação</h3>
+                <ul>
+                    <li>Registre as condições de temperatura e umidade.</li>
+                    <li>Observe a coloração e a textura das colônias bacterianas.</li>
+                    <li>Use uma lupa para detalhes mais finos.</li>
+                </ul>
+                <h3>Registro de Observações</h3>
+                <textarea id="observations" placeholder="Escreva suas observações aqui..."></textarea>
+                <button id="saveObservations"><i class="fas fa-save"></i> Salvar Observações</button>
+                <div id="feedback" class="feedback"></div>
+            </div>
+
+            <div id="prevencao" class="tab-content">
+                <h2>Prevenção contra Bactérias</h2>
+                <p>Prevenir infecções bacterianas é fundamental para a saúde. Aqui estão algumas medidas:</p>
+                <h3>Higiene Pessoal</h3>
+                <p>Lavar as mãos frequentemente ajuda a reduzir a transmissão de bactérias.</p>
+                <h3>Uso de Antibióticos</h3>
+                <p>Utilizar antibióticos somente quando prescritos por um médico, para evitar resistência bacteriana.</p>
+                <h3>Vacinação</h3>
+                <p>Mantenha as vacinas em dia para prevenir doenças bacterianas específicas.</p>
+                <h3>Alimentação Segura</h3>
+                <p>Cozer bem os alimentos e evitar a contaminação cruzada pode prevenir infecções alimentares.</p>
+            </div>
+
+            <div id="creditos" class="tab-content">
+                <h2>Créditos</h2>
+                <p>Este trabalho foi realizado por:</p>
+                <ul>
+                    <li>Luan - 1º Ano B</li>
+                    <li>Breno - 1º Ano B</li>
+                </ul>
+                <p>Agradecemos a todos que contribuíram para este projeto!</p>
+            </div>
+        </div>
+        
+        <div class="tab-navigation">
+            <button id="prev" class="tab-btn" style="display: none;"><i class="fas fa-chevron-left"></i> Anterior</button>
+            <button id="next" class="tab-btn">Próximo <i class="fas fa-chevron-right"></i></button>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Trabalho de Práticas sobre Bactérias. Todos os direitos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
